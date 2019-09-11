@@ -8,6 +8,6 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Welcome to Tic Tac Toe!"
 userMove = gets(userMove)
 
-input_to_index(userMove)
+userBoardMove = input_to_index(userMove)
 
 move(board, userBoardMove, char)
